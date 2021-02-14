@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/code2flourish/sen-regions.svg?branch=main)](https://travis-ci.org/code2flourish/sen-regions)
+[![StyleCI](https://github.styleci.io/repos/338862799/shield?branch=main)](https://github.styleci.io/repos/338862799?branch=main)
 # Senegal Regions and Departments
 
 Use this package if you want to have all the regions and departments in Senegal  
