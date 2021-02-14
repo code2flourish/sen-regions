@@ -20,6 +20,7 @@ class RegionFactory
     public function getAll(): array
     {
         $this->regions = $this->getData('./data.json');
+
         return $this->regions;
     }
 
@@ -32,6 +33,7 @@ class RegionFactory
     {
         $contents = $this->fileGetContentsWrapper->fileGetContents($path);
         $json = json_decode($contents, true);
+
         return $json['regions'];
     }
 }
