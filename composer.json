@@ -7,9 +7,15 @@
         {
             "name": "Adonai Nangui",
             "email": "adonainangui03@gmail.com"
+        },
+        {
+            "name": "Elohim Nangui",
+            "email": "elohimnangui03@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+      "ext-json": "*"
+    },
     "autoload": {
         "psr-4": {
             "Natheboy\\SenRegions\\": "src/"
