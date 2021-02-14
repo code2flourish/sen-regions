@@ -1,6 +1,6 @@
 <?php
 
-namespace Natheboy\SenRegions\Adapters;
+namespace Code2Flourish\SenRegions\Adapters;
 
 class FileGetContentsWrapper
 {

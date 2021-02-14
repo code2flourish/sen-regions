@@ -1,8 +1,8 @@
 <?php
 
-namespace Natheboy\SenRegions;
+namespace Code2Flourish\SenRegions;
 
-use Natheboy\SenRegions\Adapters\FileGetContentsWrapper;
+use Code2Flourish\SenRegions\Adapters\FileGetContentsWrapper;
 
 class RegionFactory
 {

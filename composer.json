@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Natheboy\\SenRegions\\": "src/"
+            "Code2Flourish\\SenRegions\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Natheboy\\SenRegions\\Tests\\": "tests"
+            "Code2Flourish\\SenRegions\\Tests\\": "tests"
         }
     },
     "require-dev": {

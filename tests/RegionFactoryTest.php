@@ -1,14 +1,14 @@
 <?php
 
-namespace Natheboy\SenRegions\Tests;
+namespace Code2Flourish\SenRegions\Tests;
 
-use Natheboy\SenRegions\Adapters\FileGetContentsWrapper;
-use Natheboy\SenRegions\RegionFactory;
+use Code2Flourish\SenRegions\Adapters\FileGetContentsWrapper;
+use Code2Flourish\SenRegions\RegionFactory;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class RegionFactoryTest.
- * @covers \Natheboy\SenRegions\RegionFactory
+ * @covers \Code2Flourish\SenRegions\RegionFactory
  */
 class RegionFactoryTest extends TestCase
 {
