@@ -1,0 +1,212 @@
+{
+  "departements": [
+    {
+      "id": "1",
+      "nom": "Dakar",
+      "region_id": "1"
+    },
+    {
+      "id": "2",
+      "nom": "Guediawaye",
+      "region_id": "1"
+    },
+    {
+      "id": "3",
+      "nom": "Pikine",
+      "region_id": "1"
+    },
+    {
+      "id": "4",
+      "nom": "Rufisque",
+      "region_id": "1"
+    },
+    {
+      "id": "5",
+      "nom": "Bambey",
+      "region_id": "2"
+    },
+    {
+      "id": "6",
+      "nom": "Diourbel",
+      "region_id": "2"
+    },
+    {
+      "id": "7",
+      "nom": "Mbacke",
+      "region_id": "2"
+    },
+    {
+      "id": "8",
+      "nom": "Fatick",
+      "region_id": "3"
+    },
+    {
+      "id": "9",
+      "nom": "Foundiougne",
+      "region_id": "3"
+    },
+    {
+      "id": "11",
+      "nom": "Kaolack",
+      "region_id": "4"
+    },
+    {
+      "id": "14",
+      "nom": "Kolda",
+      "region_id": "5"
+    },
+    {
+      "id": "15",
+      "nom": "Velingara",
+      "region_id": "5"
+    },
+    {
+      "id": "16",
+      "nom": "Médina Yoro Foulah",
+      "region_id": "5"
+    },
+    {
+      "id": "17",
+      "nom": "Kebemer",
+      "region_id": "6"
+    },
+    {
+      "id": "18",
+      "nom": "Linguere",
+      "region_id": "6"
+    },
+    {
+      "id": "19",
+      "nom": "Louga",
+      "region_id": "6"
+    },
+    {
+      "id": "20",
+      "nom": "Kanel",
+      "region_id": "7"
+    },
+    {
+      "id": "21",
+      "nom": "Matam",
+      "region_id": "7"
+    },
+    {
+      "id": "24",
+      "nom": "Podor",
+      "region_id": "8"
+    },
+    {
+      "id": "25",
+      "nom": "Saint-Louis",
+      "region_id": "8"
+    },
+    {
+      "id": "26",
+      "nom": "Bakel",
+      "region_id": "9"
+    },
+    {
+      "id": "28",
+      "nom": "Tambacounda",
+      "region_id": "9"
+    },
+    {
+      "id": "30",
+      "nom": "Mbour",
+      "region_id": "10"
+    },
+    {
+      "id": "31",
+      "nom": "Thies",
+      "region_id": "10"
+    },
+    {
+      "id": "32",
+      "nom": "Tivaouane",
+      "region_id": "10"
+    },
+    {
+      "id": "33",
+      "nom": "Bignogna",
+      "region_id": "11"
+    },
+    {
+      "id": "35",
+      "nom": "Zinguichor",
+      "region_id": "11"
+    },
+    {
+      "id": "37",
+      "nom": "Kaffrine",
+      "region_id": "12"
+    },
+    {
+      "id": "40",
+      "nom": "Kedougou",
+      "region_id": "13"
+    },
+    {
+      "id": "45",
+      "nom": "Sedhiou",
+      "region_id": "14"
+    }
+  ],
+  "regions": [
+    {
+      "id": "1",
+      "nom": "Dakar"
+    },
+    {
+      "id": "2",
+      "nom": "Diourbel"
+    },
+    {
+      "id": "3",
+      "nom": "Fatick"
+    },
+    {
+      "id": "12",
+      "nom": "Kaffrine"
+    },
+    {
+      "id": "4",
+      "nom": "Kaolack"
+    },
+    {
+      "id": "13",
+      "nom": "Kedougou"
+    },
+    {
+      "id": "5",
+      "nom": "Kolda"
+    },
+    {
+      "id": "6",
+      "nom": "Louga"
+    },
+    {
+      "id": "7",
+      "nom": "Matam"
+    },
+    {
+      "id": "8",
+      "nom": "Saint-Louis"
+    },
+    {
+      "id": "14",
+      "nom": "Sedhiou"
+    },
+    {
+      "id": "9",
+      "nom": "Tambacounda"
+    },
+    {
+      "id": "10",
+      "nom": "Thies"
+    },
+    {
+      "id": "11",
+      "nom": "Ziguinchor"
+    }
+  ]
+}

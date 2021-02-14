@@ -15,15 +15,27 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-    <filter>
-        <whitelist>
-            <directory suffix=".php">src/</directory>
-        </whitelist>
-    </filter>
     <logging>
-        <log type="tap" target="build/report.tap"/>
-        <log type="junit" target="build/report.junit.xml"/>
-        <log type="coverage-text" target="build/coverage.txt"/>
-        <log type="coverage-clover" target="build/logs/clover.xml"/>
+        <junit outputFile="build/junit.xml"/>
+        <text outputFile="build/logfile.txt"/>
+        <teamcity outputFile="build/teamcity.txt"/>
+        <testdoxHtml outputFile="build/testdox.html"/>
+        <testdoxText outputFile="build/testdox.txt"/>
+        <testdoxXml outputFile="build/testdox.xml"/>
     </logging>
+    <coverage cacheDirectory="true"
+              ignoreDeprecatedCodeUnits="true"
+              disableCodeCoverageIgnore="true">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+        <report>
+            <clover outputFile="build/coverage/clover.xml"/>
+            <crap4j outputFile="build/coverage/crap4j.xml" threshold="50"/>
+            <html outputDirectory="build/coverage/html-coverage" lowUpperBound="50" highLowerBound="90"/>
+            <php outputFile="build/coverage/coverage.php"/>
+            <text outputFile="build/coverage/coverage.txt" showUncoveredFiles="false" showOnlySummary="true"/>
+            <xml outputDirectory="build/coverage/xml-coverage"/>
+        </report>
+    </coverage>
 </phpunit>
