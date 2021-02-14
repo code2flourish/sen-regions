@@ -14,5 +14,13 @@
         "psr-4": {
             "Natheboy\\SenRegions\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Natheboy\\SenRegions\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
