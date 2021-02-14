@@ -7,8 +7,7 @@ use Natheboy\SenRegions\RegionFactory;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class RegionFactoryTest
- * @package Natheboy\SenRegions\Tests
+ * Class RegionFactoryTest.
  * @covers \Natheboy\SenRegions\RegionFactory
  */
 class RegionFactoryTest extends TestCase
@@ -49,7 +48,7 @@ class RegionFactoryTest extends TestCase
         $sut = $this->getSut();
 
         $simulateJson = '{"departments": [], "regions": "Sedhiou"}';
-        $this->fileGetContentsWrapper->method('fileGetContents')->willReturn( $simulateJson );
+        $this->fileGetContentsWrapper->method('fileGetContents')->willReturn($simulateJson);
         $this->assertEquals('Sedhiou', $sut->getData('http://example.com/data.json'));
     }
 
