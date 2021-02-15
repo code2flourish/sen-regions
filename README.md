@@ -25,7 +25,7 @@ $factory = new RegionFactory($fileSystem);
 $regions = $factory->getAll();
 ```
 
-#### To get random regions
+#### To get random region
 ```php
 use Code2Flourish\SenRegions\RegionFactory;
 use Code2Flourish\SenRegions\Adapters\FileGetContentsWrapper;
@@ -34,6 +34,40 @@ $fileSystem = new FileGetContentsWrapper();
 $factory = new RegionFactory($fileSystem);
 
 $region = $factory->getRandomRegion();
+```
+
+#### To get all departments
+```php
+use Code2Flourish\SenRegions\DepartmentFactory;
+use Code2Flourish\SenRegions\Adapters\FileGetContentsWrapper;
+
+$fileSystem = new FileGetContentsWrapper();
+$factory = new DepartmentFactory($fileSystem);
+
+$departments = $factory->getAll();
+```
+
+#### To get all the departments of a region
+```php
+use Code2Flourish\SenRegions\DepartmentFactory;
+use Code2Flourish\SenRegions\Adapters\FileGetContentsWrapper;
+
+$fileSystem = new FileGetContentsWrapper();
+$factory = new DepartmentFactory($fileSystem);
+
+$departments = $factory->getAllByRegion(1);
+```
+✍🏾: The number passed in parameter represents the id of the region that you can find in the list of regions 
+
+#### To get random department
+```php
+use Code2Flourish\SenRegions\DepartmentFactory;
+use Code2Flourish\SenRegions\Adapters\FileGetContentsWrapper;
+
+$fileSystem = new FileGetContentsWrapper();
+$factory = new DepartmentFactory($fileSystem);
+
+$department = $factory->getRandomDepartment();
 ```
 
 ## Contributing
