@@ -36,10 +36,10 @@ class RegionFactoryTest extends TestCase
     /** @test */
     public function it_returns_a_random_region()
     {
-        $regions = new RegionFactory($this->fileGetContentsWrapper, ['Sedhiou']);
+        $regions = new RegionFactory($this->fileGetContentsWrapper, [['Sedhiou']]);
         $region = $regions->getRandomRegion();
 
-        $this->assertSame('Sedhiou', $region);
+        $this->assertSame(['Sedhiou'], $region);
     }
 
     /** @test */

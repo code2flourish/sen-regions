@@ -26,7 +26,8 @@ class RegionFactory
 
     public function getRandomRegion(): array
     {
-        return $this->regions[array_rand($this->getAll())];
+        $data = $this->regions ? $this->regions : $this->getAll();
+        return $this->regions[array_rand($data)];
     }
 
     public function getData(string $path)
