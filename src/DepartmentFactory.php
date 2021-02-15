@@ -34,6 +34,7 @@ class DepartmentFactory
     public function getRandomDepartment(): array
     {
         $data = $this->departments ? $this->departments : $this->getAll();
+
         return $this->departments[array_rand($data)];
     }
 
