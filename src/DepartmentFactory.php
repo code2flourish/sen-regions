@@ -20,6 +20,7 @@ class DepartmentFactory
     public function getAll(): array
     {
         $this->departments = $this->getData('./data.json');
+
         return $this->departments;
     }
 
